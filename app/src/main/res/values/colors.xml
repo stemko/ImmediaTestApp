@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--App colors-->
+    <color name="listSelector">#1A0275D8</color>
+    <color name="appBackground">#3007ABB3</color>
+    <color name="popupWindowBackground">#90000000</color>
+    <color name="timeline">#7C7C7C</color>
+    
+    <!--Override third party colors-->
+    <color name="floatingButtonNormal">@color/colorPrimary</color>
+    <color name="floatingButtonPressed">@color/colorPrimary</color>
+    <color name="floatingButtonRipple">@color/colorPrimaryDark</color>
+    <color name="floatingButtonBackground">@color/appBackground</color>
+</resources>

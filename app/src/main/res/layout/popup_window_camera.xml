@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/popupWindowBackground"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/popup_window_camera_guide"
+        android:lineSpacingExtra="5dp"
+        android:text="@string/camera_info_message1"
+        android:id="@+id/textView1"
+        android:padding="0dp" />
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:background="@drawable/bg_button"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/camera_info_message2"
+            android:textSize="@dimen/bigger_text_size"
+            android:textColor="@android:color/white"
+            android:id="@+id/textView2" />
+        
+        <TextView
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_button"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/camera_info_message3"
+            android:textSize="@dimen/bigger_text_size"
+            android:textColor="@android:color/white"
+            android:id="@+id/textView3" />
+    </LinearLayout>
+</LinearLayout>

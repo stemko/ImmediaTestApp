@@ -1,0 +1,4 @@
+include ':app'
+//include ':app', ':simple-commons', ':aafactory-commons'
+//project(':simple-commons').projectDir = new File(settingsDir, "../Simple-Commons/commons")
+//project(':aafactory-commons').projectDir = new File(settingsDir, "../aafactory-commons/commons")

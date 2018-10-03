@@ -1,0 +1,147 @@
+<resources>
+    <string name="app_name">Easy PhotoMap</string>
+
+    <!--AboutActivity-->
+    <string name="aaf_copyright">aaf-easyphotomap v %1$s\nCopyright © Awesome Application Factory %2$d</string>
+    <string name="aaf_license_url">https://github.com/hanjoongcho/aaf-easyphotomap/blob/master/LICENSE.md</string>
+    
+    <!--MapsActivity-->
+    <string name="maps_activity_timeline">Timeline</string>
+    <string name="maps_activity_setting">Environment settings</string>
+    <string name="maps_activity_find">Find registration photos</string>
+    <string name="maps_activity_overlay">View your registration photos</string>
+    <string name="maps_activity_folder">Register with explorer</string>
+    <string name="maps_activity_explorer">Register with preview</string>
+    <string name="maps_activity_camera">Register with photo</string>
+    <string name="photo_map_item_count_unit">&#160;cases</string>
+
+    <!--ThumbnailExplorerActivity-->
+    <string name="thumbnail_explorer_compact_activity_title">Register with preview</string>
+    <string name="thumbnail_explorer_compact_activity_explorer">Register with explorer</string>
+    <string name="thumbnail_explorer_compact_activity_update">Update thumbnails</string>
+
+    <!--FileExplorerActivity-->
+    <string name="file_explorer_activity_title">Register with explorer</string>
+    <string name="registration_batch_a">Register current folder</string>
+    <string name="registration_batch_b">Register current folder and sub</string>
+
+    <!--SettingsActivity-->
+    <string name="setting_activity_minimum_cluster_title">Photo marker minimum cluster</string>
+    <string name="setting_activity_minimum_cluster_summary">If there are more markers than a set point within a certain distance, use cluster markers to increase readability.</string>
+
+    <!--TimelineActivity-->
+    <string name="timeline_compat_activity_title">Timeline</string>
+
+    <!--PhotoSearchActivity-->
+    <string name="delete_all_confirm_message">Are you sure you want delete all saved photo maps?</string>
+    <string name="delete_contain_keyword_confirm_message">Are you sure you want delete all saved photo maps when contains \'%1$s\' keyword?</string>
+
+    <string name="explorer">explorer</string>
+    <string name="overlay">overlay photos</string>
+    <string name="action_settings">action_settings</string>
+    <string name="address">add</string>
+    <string name="info_message">Click on the keyword, you can view the photos taken nearby.</string>
+    <string name="view_world">View All</string>
+    <string name="close">Close</string>
+    <string name="open_explorer">Registered in Explorer</string>
+    <string name="update_thumbnail">Updating thumbnails</string>
+    <string name="setting">Setting</string>
+    <string name="down_scale">Down scale font</string>
+    <string name="send_log">send log</string>
+    <string name="photo_home_internal">Photo Home</string>
+    <string name="photo_home_external">Photo Home(SD)</string>
+    <string name="add_all">register all</string>
+    <string name="home">gallery</string>
+    <string name="batch_stop">Stop</string>
+    <string name="return_explorer">Close</string>
+
+    <string name="batch_popup_message1">In batch mode or register location information (GPS), it does not register the photos to an existing registration.\npictures without location information (GPS) is simply individual properties using the search function of the address easy photo map.</string>
+    <string name="batch_popup_message2">succeed registration photos</string>
+    <string name="batch_popup_message3">duplicate photos</string>
+    <string name="batch_popup_message4">no gps data photos</string>
+    <string name="batch_popup_message5">failed registration photos</string>
+    <string name="batch_popup_message6">Click on the \'Close\' button to exit.</string>
+
+    <string name="maps_activity_message1">The current version is only available with an existing registered Photos.</string>
+    <string name="maps_activity_message2">There is no registered Photos.</string>
+
+    <string name="file_explorer_message1">GPS information is not present in the photo file. \nWould you like to use the address search?</string>
+    <string name="file_explorer_message2">No time information</string>
+    <string name="file_explorer_message3">The picture of the same name already exists.</string>
+    <string name="file_explorer_message4">Photo has registered on Easy Photo Map.</string>
+    <string name="file_explorer_message5">Register Photo</string>
+    <string name="file_explorer_message6">Checking GPS information...</string>
+    <string name="file_explorer_message7">Would you like to register?</string>
+    <string name="file_explorer_message8">Generate thumbnail...</string>
+    <string name="file_explorer_message9">There are no pictures folder currently registered.</string>
+    <string name="file_explorer_message10">Update list..</string>
+    <string name="file_explorer_message11">Do you want to register all photos in the current folder?</string>
+    <string name="file_explorer_message12">Select the \'OK\' button to go to the Photo Map screen.\nIf you want to move to the previous folder, select the \'Cancel\' button and click the folder name of the navigation.</string>
+    <string name="file_explorer_message13">Do you want to register all the photos in the current folder and its subfolders?</string>
+
+    <string name="thumbnail_explorer_message1">Thumbnail of the updated information...</string>
+    <string name="thumbnail_explorer_message2">Choose a picture.</string>
+    <string name="thumbnail_explorer_message3">update thumbnail</string>
+    <string name="thumbnail_explorer_message4">The original of the photo could not be found.</string>
+
+    <string name="photo_search_message1">Choose a picture.</string>
+
+    <string name="address_search_message1">The picture of the same name already exists.</string>
+    <string name="address_search_message2">Photo has registered on Easy Photo Map.</string>
+
+    <string name="epm_preference_message1">easy photo map setting</string>
+    <string name="epm_preference_message2">enable date filter</string>
+
+    <string name="camera_activity_message1">It does not receive GPS information.</string>
+
+    <string name="setting_title">easy photo map preference setting</string>
+
+    <string name="camera_info_message1">Before the picture is taken, please activate the tag location in the camera settings. If the tag location setting is not enabled, you must enter the location information manually by using the address search function.</string>
+    <string name="camera_info_message2">Confirm</string>
+    <string name="camera_info_message3">Do not show after this time</string>
+    <string name="camera_info_message4">The location tag setting screen may differ depending on the mobile phone.</string>
+
+    <string name="disable_info_popup">Disable camera setup guide</string>
+    <string name="disable_info_popup_summary">Camera does not show the entire GPS geotag information.</string>
+
+    <string name="enable_create_copy">Activate copy generation</string>
+    <string name="enable_create_copy_summary">Create copies of photographs during registration. If you create a copy even if the original picture is deleted, you can view pictures using the copy.</string>
+
+    <string name="enable_reverse_order">Explorer activated in reverse order</string>
+    <string name="enable_reverse_order_summary">The file and directory names in reverse order when sorted Explorer.</string>
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable date filter</string>
+    <string name="pref_description_social_recommendations">In place of the address filter used in the keyword nApplies a date filter.</string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="photo_size_setting">Photo marker size</string>
+    <string name="photo_size_setting_summary">Change the size of the photo marker displayed on a map.</string>
+    <string name="photo_marker_scale_m4">x0.2</string>
+    <string name="photo_marker_scale_m3">x0.4</string>
+    <string name="photo_marker_scale_m2">x0.6</string>
+    <string name="photo_marker_scale_m1">x0.8</string>
+    <string name="photo_marker_scale_default">x1.0</string>
+    <string name="photo_marker_scale_p1">x1.2</string>
+    <string name="photo_marker_scale_p2">x1.4</string>
+
+    <string name="photo_marker_setting">Photo marker type</string>
+    <string name="photo_marker_setting_summary">Change the type of the photo marker displayed on a map</string>
+
+    <string name="photo_marker_film">Film Frame</string>
+    <string name="photo_marker_flower">Flower Frame</string>
+    <string name="photo_marker_basic">Basic Frame</string>
+    <string name="photo_marker_circle">Red Circle</string>
+    
+    <string name="photo_marker_cluster_level1">more than 5</string>
+    <string name="photo_marker_cluster_level2">more than 10</string>
+    <string name="photo_marker_cluster_level3">more than 50</string>
+    <string name="photo_marker_cluster_level4">more than 100</string>
+    <string name="photo_marker_cluster_level5">more than 200</string>
+    <string name="photo_marker_cluster_level6">more than 500</string>
+    <string name="photo_marker_cluster_level7">more than 1000</string>
+</resources>

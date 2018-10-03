@@ -1,0 +1,81 @@
+<resources>
+    <!--App theme-->
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:fastScrollThumbDrawable">@drawable/ic_fast_scroll</item>
+        <item name="android:fastScrollTrackDrawable">@null</item>
+    </style>
+
+    <style name="AppCard">
+        <item name="contentPadding">@dimen/card_contents_padding</item>
+        <item name="cardCornerRadius">@dimen/card_radius</item>
+        <item name="cardElevation">2dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+    </style>
+    <style name="AppCard.Settings">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="contentPadding">0dp</item>
+        <!--<item name="cardPreventCornerOverlap">true</item>
+        <item name="cardUseCompatPadding">true</item>-->
+    </style>
+    <style name="AppCard.List">
+        <item name="contentPadding">0dp</item>
+    </style>
+    
+    <style name="PopupWindow" parent="AppTheme.NoActionBar">
+        <item name="colorAccent">@color/default_text_color</item>
+    </style>
+
+    <style name="Transparent" parent="android:Theme.Light">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    
+    <!--Override third party theme-->
+    <style name="FloatingMenu">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:padding">10dp</item>
+        <item name="menu_colorNormal">@color/floatingButtonNormal</item>
+        <item name="menu_colorPressed">@color/floatingButtonPressed</item>
+        <item name="menu_colorRipple">@color/floatingButtonRipple</item>
+        <item name="menu_backgroundColor">@color/floatingButtonBackground</item>
+        <item name="menu_labels_ellipsize">end</item>
+        <item name="menu_labels_singleLine">true</item>
+        <item name="menu_fab_size">mini</item>
+        <item name="menu_openDirection">down</item>
+    </style>
+    
+    <style name="FloatingButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fab_colorNormal">@color/floatingButtonNormal</item>
+        <item name="fab_colorPressed">@color/floatingButtonPressed</item>
+        <item name="fab_colorRipple">@color/floatingButtonRipple</item>
+        <item name="fab_size">mini</item>
+    </style>
+
+    <!--App View Style-->
+    <style name="item_search_text">
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">middle</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/item_search_text</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/default_text_color</item>
+    </style>
+
+    <style name="item_file_explorer_text" parent="item_search_text">
+        <item name="android:textSize">@dimen/item_file_explorer_text_small</item>
+    </style>
+</resources>
